@@ -47,6 +47,10 @@ footer {
 }
 
 .hero {
-  position: fixed;
-  width: 200%;
+  display: flex;
+}
+
+.hero img {
+  justify-content: center;
+  width: 100%;
 }
