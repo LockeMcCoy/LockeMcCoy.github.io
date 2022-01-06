@@ -15,9 +15,11 @@ nav a {
   font-size: 2vw;
   text-decoration: none;
 }
+
 .logo {
   font-size: 3vw;
 }
+
 nav a:hover {
   color: #FFF;
   text-decoration: underline;
@@ -42,4 +44,9 @@ footer {
   font-size: 1vw;
   color: #d47523;
   padding: 0 20px;
+}
+
+.hero {
+  position: fixed;
+  width: 100%;
 }
