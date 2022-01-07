@@ -1,34 +1,42 @@
 html {
   background-color: #182c37;
 }
+ header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 
 nav {
   display: flex;
-  justify-content: center;
-  gap: 10vw;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: #234851;
 }
 
 nav a {
   font-family: 'Amarante';
   color: #b83d02;
-  font-size: 2vw;
+  font-size: 3vw;
   text-decoration: none;
+  padding: 1vw 2vw 0 3vw;
 }
 
 .logo {
-  font-size: 3vw;
+  width: 75%;
+  height: 5vw;
 }
 
-nav a:hover {
-  color: #FFF;
-  text-decoration: underline;
+.sidebar {
+  width: 50%;
 }
 
 footer {
   position: fixed;
   background-color: #234851;
   width: 100%;
-  height: 3vw;
+  height: 7vw;
   left: 0;
   bottom: 0;
 }
@@ -40,7 +48,7 @@ footer {
 
 .foot p {
   font-family: 'Alice';
-  font-size: 1vw;
+  font-size: 2vw;
   color: #d47523;
-  padding: 0 20px;
+  padding: 0 1em;
 }
